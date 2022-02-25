@@ -1,0 +1,40 @@
+<head>
+    <link href="nice-style.ccs" rel="stylesheet">
+</head>
+
+<h1>Fundraiser</h1>
+<h2>The Phillipines need our help!</h2>
+<h3>1 Click = 1 Dollar</h3>
+<p>Look at them, so pitiful :(</p>
+
+<p style="background-image: url('https://htmlcolorcodes.com/assets/images/colors/bright-blue-color-solid-background-1920x1080.png');"></p>
+
+<html>
+<head>
+    <title>Fundraiser</title>
+</head>
+
+<html>
+<head>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+    var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onclick="hello()">Click me</button>
+    <p>Dollars: <a id="clicks">0</a></p>
+
+</body></html>
+
+
+
+<div>
+<img src="https://cdn1.i-scmp.com/sites/default/files/2014/05/10/387b218b0ec0dca1ee342b50af26eab0.jpg">
+</div>
+
